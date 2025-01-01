@@ -1,0 +1,1 @@
+python -m torch.distributed.launch --nproc_per_node=1 train/train.py --data ../dataset/pipe ../dataset/handle --object handle --outf big_alt/handle_aug/weights --imagesize 512 --batchsize 100 --epochs 100
